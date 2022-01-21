@@ -1,0 +1,68 @@
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache 
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+
+#general
+*.class 
+ 
+# Common credential files
+**/credentials.json
+**/client_secrets.json
+**/client_secret.json
+*creds*
+*.dat
+*password*
+*.httr-oauth*
+ 
+# Private Node Modules
+node_modules/
+creds.js
+ 
+# Private Files
+*.json
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.xlsx
+ 
+# Mac/OSX
+.DS_Store
+  
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+ 
